@@ -107,6 +107,13 @@ You can use [Carthage](https://github.com/Carthage/Carthage) to install `SwiftyJ
 github "SwiftyJSON/SwiftyJSON"
 ```
 
+And then run the cartfile command 
+
+```
+carthage update --platform iOS
+```
+Finally select the Target in your Xcode project and drag the file into the link binary with Libraries item out of the cartage build ios libaries subdirectory.
+
 #### Swift Package Manager
 
 You can use [The Swift Package Manager](https://swift.org/package-manager) to install `SwiftyJSON` by adding the proper description to your `Package.swift` file:
